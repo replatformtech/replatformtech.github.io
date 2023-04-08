@@ -2,15 +2,13 @@ title: ReplatformTech
 #email: your-email@mail.com
 #tel: (+1) 111-111-1111
 description: Replatform Technologies, LLC specializes in migrating mission critical mainframe applications to low-cost, high-performance platforms.
-baseurl: ""
-url: "replatformtech.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://replatformtech.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
 
 plugins:
   - github-pages
-  - jekyll-feed
 
 sass:
   sass_dir: _scss
