@@ -9,6 +9,7 @@ url: "replatformtech.github.io" # the base hostname & protocol for your site, e.
 markdown: kramdown
 
 plugins:
+  - github-pages
   - jekyll-feed
 
 sass:
