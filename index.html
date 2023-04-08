@@ -1,14 +1,27 @@
-<!DOCTYPE html>
+---
+layout: default
+---
 
-<html>
-<head>
-<title>
-Replatform Tech on GitHub
-</title>
-</head>
-<body bgcolor="white">
-<img src="images/RT_Transparent.png" width=360 height=247/>
-<h2>Coming Soon</h2>
-<p>More information about <a href="https://www.replatformtech.com/">replatformtech.com</a> is coming soon!
-</body>
-</html>
+{% assign data = site.data.repositories %}
+
+<section class="intro">
+    <div class="container">
+        <div class="intro-content">
+            <h1>About Replatform Technologies</h1>
+            {{ data.about | markdownify }}
+        </div>
+    </div>
+</section>
+<section class="repositories">
+    <div class="container">
+        <div class="repositories-list">
+            {%- for repo in data.list -%}
+            <div class="repo-card">
+                <a class="repo-card__link" href="{{ repo.url }}"></a>
+                <h3 class="repo-card__name">{{ repo.name }}</h3>
+                <p class="repo-card__text">{{ repo.description }}</p>
+            </div>
+        {%- endfor -%}
+        </div>
+    </div>
+</section>

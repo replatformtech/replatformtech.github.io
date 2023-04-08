@@ -1,0 +1,20 @@
+about: |
+  Replatform Technologies, LLC specializes in migrating mission critical mainframe applications to low-cost, high-performance platforms. Whether you are migrating a production application or a development environment, we can help you save. We provide all levels of service from project management to programming services.
+
+  We do not represent any software or hardware vendor. You can be confident that we will size your hardware and software licenses with your interests first.
+
+  To get more information visit out website <a href="https://www.replatformtech.com/">replatformtech.com</a>.
+
+list:
+  - name: "ezasoket"
+    url: "https://github.com/replatformtech/ezasoket"
+    description: "This is an open source implementation of IBM's sockets interface commonly used with COBOL. It is also used in other languages."
+  - name: "ezasoket"
+    url: "https://github.com/replatformtech/ezasoket"
+    description: "This is an open source implementation of IBM's sockets interface commonly used with COBOL. It is also used in other languages."
+  - name: "ezasoket"
+    url: "https://github.com/replatformtech/ezasoket"
+    description: "This is an open source implementation of IBM's sockets interface commonly used with COBOL. It is also used in other languages."
+  - name: "ezasoket"
+    url: "https://github.com/replatformtech/ezasoket"
+    description: "This is an open source implementation of IBM's sockets interface commonly used with COBOL. It is also used in other languages."
