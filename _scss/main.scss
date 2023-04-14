@@ -94,12 +94,6 @@ h3 {
   }
 }
 
-.intro {
-  &-content {
-    text-align: center;
-  }
-}
-
 .repositories {
   &-list {
     display: grid;
@@ -108,7 +102,6 @@ h3 {
     padding: 2rem 0 3rem;
     max-width: 800px;
     width: 100%;
-    margin: 0 auto;
     .repo-card {
       background-color: #fff;
       border: 1px solid #e3e3d0;
@@ -159,6 +152,11 @@ h3 {
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
       text-align: center;
+    }
+    .copy p {
+      @media (min-width: 768.99px) {
+        margin-bottom: 0;
+      }
     }
     .contact {
       text-align: right;

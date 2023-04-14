@@ -6,7 +6,7 @@
             </div>
             <div class="contact">
                 {% if site.tel %}<p><a href="tel:{{ site.tel | remove: ' ' }}">TEL: {{ site.tel }}</a></p>{% endif %}
-                {% if site.email %}<p><a href="mailto:{{ site.email }}">EMAIL : {{ site.email }}</a></p>{% endif %}
+                {% if site.email %}<p>To contact us, please email <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% endif %}
             </div>
         </div>
     </div>
