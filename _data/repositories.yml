@@ -16,7 +16,7 @@ list:
     description: "This is the COBOL-IT compiler version 4.1.1 as received from Micro Focus 2019-07-04. This is open source because it was originally forked from the OpenCOBOL project. Although OpenKicks has not added support for COBOL-IT, Replatform Technologies is hosting the code here for review and archive."
   - name: "cobol-it-4.1.11_2021-06-15"
     url: "https://github.com/replatformtech/cobol-it-4.1.11_2021-06-15"
-    description: "This is the COBOL-IT compiler version 4.1.1 as received from Micro Focus 2021-06-15. This is open source because it was originally forked from the OpenCOBOL project. Although OpenKicks has not added support for COBOL-IT, Replatform Technologies is hosting the code here for review and archive."
+    description: "This is the COBOL-IT compiler version 4.1.11 as received from Micro Focus 2021-06-15. This is open source because it was originally forked from the OpenCOBOL project. Although OpenKicks has not added support for COBOL-IT, Replatform Technologies is hosting the code here for review and archive."
   - name: "ezasoket"
     url: "https://github.com/replatformtech/ezasoket"
     description: "This is an open source implementation of IBM's sockets interface commonly used with COBOL. It is also used in other languages."
